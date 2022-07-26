@@ -10,6 +10,8 @@ public class Data {
         long largo = 1500;
         boolean boleano = true;
 
+
+
         System.out.println(numero);
         System.out.println(decimalD);
         System.out.println(decimalf);
@@ -17,8 +19,11 @@ public class Data {
         System.out.println(letra);
         System.out.println(largo);
         System.out.println(boleano);
+       double resultado = precioConIva(20);
+        System.out.println(resultado);
 
-
-
+    }
+    static double precioConIva (double precio) {
+        return (precio *  21 / 100)  + precio;
     }
 }
