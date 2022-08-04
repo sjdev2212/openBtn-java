@@ -16,5 +16,23 @@ public class ArrListEx {
         for (String elemento :listaEnlazadaDos) {
             System.out.println("Elemento actual en la lista enlazada: " + elemento);
         }
+
+        ArrayList<Integer> myList = new ArrayList<>();
+
+        int counter = 1;
+        while (counter <= 10) {
+            myList.add(counter);
+            counter++;
+        }
+        System.out.println(myList);
+
+
+        for (int i = 0; i < myList.size() ;i++) {
+            if (myList.get(i) % 2 == 0 ) {
+                myList.remove(myList.get(i));
+            }
+    }
+        System.out.println(myList);
+
     }
 }
