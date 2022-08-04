@@ -9,7 +9,7 @@ public class DatosAvanzado {
         recorrerArr(intArray);
 
 
-    }
+   }
 
     public static String reverse(String text) {
         String[] ary = text.split("");
@@ -30,4 +30,5 @@ public static void recorrerArr (int[] arr){
         System.out.println(j);
     }
 }
+
 }
